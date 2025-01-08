@@ -8,3 +8,5 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     var email = document.getElementById('email').value;
     document.getElementById('formOutput').textContent = 'Nombre: ' + name + ', Email: ' + email;
 });
+
+console.log("Soy un cambio que se hizo en una rama hotfix")
